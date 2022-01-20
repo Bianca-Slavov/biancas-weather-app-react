@@ -7,7 +7,7 @@ export default function Coder() {
     <div className="Coder">
       <span class="coded-by">
         <a
-          href="https://github.com/Bianca-Slavov/biancas-weather-app"
+          href="https://github.com/Bianca-Slavov/biancas-weather-app-react"
           target="_blank"
           rel="noreferrer"
           className="source-link"
