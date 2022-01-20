@@ -1,0 +1,31 @@
+.Form .search {
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.Form .search-buttons {
+  background: none;
+  border-color: #b2b2b2;
+  border-style: solid;
+  border-radius: 40px;
+  border-width: 0.8px;
+  margin: 30px 0px;
+  padding: 2px 10px;
+}
+
+.Form .input {
+  border-radius: 40px;
+  margin: 30px 0px;
+  padding: 2px 0 2px 10px;
+}
+
+.Form .fa-map-marker-alt {
+  color: #a489b2;
+  font-size: 15px;
+}
+
+.Form .fa-search {
+  color: #a489b2;
+  font-size: 15px;
+}

@@ -1,0 +1,55 @@
+h1,
+h3,
+li,
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 40px 0 0 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+h3:first-letter {
+  text-transform: capitalize;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 20px 0 70px 0;
+  padding: 0;
+}
+
+li {
+  font-size: 12px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-size: 30px;
+}
+
+.icon-today {
+  display: block;
+  margin: 30px auto;
+  width: 80px;
+}
+
+.current-date {
+  font-size: 14px;
+  text-align: center;
+}
