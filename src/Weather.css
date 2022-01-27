@@ -53,3 +53,11 @@ strong {
   font-size: 14px;
   text-align: center;
 }
+
+.weather-temperature .units {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+}

@@ -1,13 +1,13 @@
 import React from "react";
 
-import "./Temperature.css";
+import "./Weather.css";
 
-export default function Temperature() {
+export default function Weather() {
   let weatherData = {
     city: "Amsterdam",
     temperature: 12,
     date: "Friday",
-    imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+    imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
   };
 
   return (
@@ -22,8 +22,8 @@ export default function Temperature() {
       />
 
       <div className="weather-temperature">
-        <strong></strong>
-        <span className="units">{weatherData.temperature} °C</span>
+        <strong>{weatherData.temperature}</strong>
+        <span className="units">°C</span>
       </div>
     </div>
   );

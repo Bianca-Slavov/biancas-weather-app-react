@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-import Temperature from "./Temperature";
+import Weather from "./Weather";
 import Conditions from "./Conditions";
 
 import "./Container.css";
@@ -10,7 +10,7 @@ export default function Container() {
     <div className="Container">
       <div className="card">
         <Form />
-        <Temperature />
+        <Weather />
         <Conditions />
       </div>
     </div>
