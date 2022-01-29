@@ -9,7 +9,7 @@ export default function Form() {
           className="search-buttons"
           type="search"
           placeholder="Enter a city"
-          autocomplete="off"
+          autoComplete="off"
         />
         <button className="search-buttons">
           <i className="fas fa-search"></i>

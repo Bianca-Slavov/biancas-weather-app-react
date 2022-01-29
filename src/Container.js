@@ -10,7 +10,7 @@ export default function Container() {
     <div className="Container">
       <div className="card">
         <Form />
-        <Weather />
+        <Weather defaultCity="Amsterdam" />
         <Conditions />
       </div>
     </div>

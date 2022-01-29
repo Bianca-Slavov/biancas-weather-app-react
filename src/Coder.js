@@ -5,7 +5,7 @@ import "./Coder.css";
 export default function Coder() {
   return (
     <div className="Coder">
-      <span class="coded-by">
+      <span className="coded-by">
         <a
           href="https://github.com/Bianca-Slavov/biancas-weather-app-react"
           target="_blank"
