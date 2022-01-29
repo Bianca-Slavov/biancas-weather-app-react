@@ -10,11 +10,11 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      temperature: response.data.main.temp,
+      temperature: Math.round(response.data.main.temp),
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      wind: response.data.wind.speed,
+      windspeed: response.data.wind.speed,
       city: response.data.name,
       img: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
     });
@@ -44,6 +44,7 @@ export default function Weather(props) {
             type="search"
             placeholder="Enter a city"
             autoComplete="off"
+            onChange={handleCityChange}
           />
           <button className="search-buttons">
             <i className="fas fa-search"></i>
