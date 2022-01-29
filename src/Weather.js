@@ -16,7 +16,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       windspeed: response.data.wind.speed,
       city: response.data.name,
-      img: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
+      icon: response.data.weather[0].icon,
     });
   }
 
