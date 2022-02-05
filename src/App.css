@@ -1,9 +1,5 @@
 body {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(255, 246, 236) 39.5%,
-    rgba(100, 46, 122, 0.23) 100.2%
-  );
+  background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   font-family: "Quicksand", sans-serif;
   margin-bottom: 20px;
 }
