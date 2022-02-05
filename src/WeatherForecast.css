@@ -1,0 +1,24 @@
+.row {
+  color: #212529;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.WeatherForecast-date {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.WeatherForecast-temperatures {
+  font-size: 12px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.WeatherForecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-icons {
+  width: 40px;
+}
