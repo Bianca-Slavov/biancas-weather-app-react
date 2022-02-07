@@ -18,7 +18,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       windspeed: Math.round(response.data.wind.speed),
       city: response.data.name,
-      icon: `/images/png/${response.data.weather[0].icon}.png`,
+      icon: `/images/gif/${response.data.weather[0].icon}.gif`,
     });
   }
 
