@@ -9,6 +9,11 @@ export default function WeatherInfo(props) {
       <p className="current-date">
         <FormattedDate date={props.data.date} />
       </p>
+      <img
+        src={props.data.icon}
+        alt={props.data.description}
+        className="weather-icon-currentday"
+      />
       <div className="weather-temperature">
         <WeatherTemperature celsius={props.data.temperature} />
       </div>

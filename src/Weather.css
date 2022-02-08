@@ -67,6 +67,10 @@ strong {
   margin: 10px 0px;
 }
 
+.weather-icon-currentday {
+  width: 50px;
+}
+
 .weather-icons {
   width: 40px;
 }
