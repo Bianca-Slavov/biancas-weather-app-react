@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
         <WeatherTemperature celsius={props.data.temperature} />
       </div>
       <div className="Conditions">
-        <h3>Rainy</h3>
+        <h3>{props.data.description}</h3>
 
         <ul>
           <li>
